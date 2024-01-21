@@ -10,3 +10,10 @@ nav {
     text-align: center;
     padding: 5vh;
 }
+
+.box{
+    padding-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
