@@ -6,26 +6,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles2.css">
-    <title>Sports Bracket Generator</title>
+    <title>Double Bracket Elimination</title>
 </head>
 
 <body>
-    <nav>
-        <div>
-            <h1>Sports Bracket Generator</h1>
-            <button> <a href="index.html">Back</a></button>
-        </div>
-    </nav>
+    
+    <div id="title">
+        Double Bracket Elimination
+    </div>
+
     <section class = "box">
         <form>
-            <label for="tname">Tournament Name:</label>
-            <input type="text" name="tname" id="tname"> <br>
-            <label for="pnum">Number of Participants:</label>
-            <input type="text" name="pnum" id="pnum"> <br>
-            <button>Submit</button>
+            <label for="tournament-name">Tournament Name:</label>
+            <input type="text" id="tournament-name"> <br>
+            <label for="participants-num">Number of Participants:</label>
+            <input type="text" id="participants-num"> <br>
+            <button onclick="getTournamentInfo()">Submit</button>
         </form> 
         
     </section>
+    
+    <div id="bracket-info">
+
+    </div>
+
+    <button id="back"><a href="index.html">Back</a></button>
+
+    
+    
+    
     <script src="functions2.js"></script>
 </body>
 

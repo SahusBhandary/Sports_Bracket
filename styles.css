@@ -1,14 +1,15 @@
-body {
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
-nav {
-    background-color: #333;
-    color: white;
+#title {
+    padding: 50px;
     text-align: center;
-    padding: 5vh;
+    background-color: #335;
+    font-size: 50px;
+    font-style: italic;
 }
 
 .buttons_area {
@@ -17,12 +18,16 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    background: #334;
 }
 
 button {
     display: block;
     max-width: 50vh;
+    max-height: 500px;
     padding: 5vh;
+    background-color: grey;
+    border: #338 solid 3px;
 }
 
 .image{
@@ -30,5 +35,7 @@ button {
     align-items: center;
     justify-content: center;
 }
+
+
 
 
